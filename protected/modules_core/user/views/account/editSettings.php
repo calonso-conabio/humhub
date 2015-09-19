@@ -13,9 +13,17 @@
 
     <div class="form-group">
         <?php echo $form->labelEx($model, 'tags'); ?>
-        <?php echo $form->textField($model, 'tags', array('class' => 'form-control')); ?>
+        <br>
+        <?php echo Yii::t('UserModule.models_User', 'tags_description'); ?>
+        <?php echo $form->textArea($model, 'tags', array('class' => 'form-control')); ?>
         <?php echo $form->error($model, 'tags'); ?>
     </div>
+    
+	<h4>Lista de etiquetas</h4>
+    <div class="form-group">
+		<?php echo CHtml::label('Danza', 'tag_danza'); ?>
+		<?php echo CHtml::checkBox('tag_danza', false, array('value' => 'danza')); ?>
+	</div>    
 
     <div class="form-group">
         <?php echo $form->labelEx($model, 'language'); ?>
