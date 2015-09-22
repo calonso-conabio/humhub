@@ -12,6 +12,8 @@ return array (
   'Language' => 'Idioma',
   'New user needs approval' => 'Nuevos usuarios necesitan aprobación',
   'Tags' => 'Etiquetas',
+  'tags_description' => 'Puedes anotar las etiquetas manualmente (separadas por coma) o escogerlas de la lista de etiquetas',
+  'tag_list' => '',		 			
   'Updated at' => 'Actualizado el',
   'Updated by' => 'Actualizado por',
   'Username' => 'Nombre de usuario',
