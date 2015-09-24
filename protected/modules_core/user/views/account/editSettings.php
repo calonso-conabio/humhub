@@ -41,9 +41,6 @@
 					$('#AccountSettingsForm_tags').val(updated_value);	
 			}	
 		});
-
-		
-		        
 	});
 </script>
   
@@ -201,18 +198,18 @@
   		
   		<div id="deportes">
   			<div class="form-group">
-				<?php echo CHtml::label('fútbol', 'tag_futbol'); ?>
-				<?php echo CHtml::checkBox('tag_futbol', false, array('value' => 'fútbol')); ?>
+				<?php echo CHtml::label('atletismo', 'tag_atletismo'); ?>
+				<?php echo CHtml::checkBox('tag_atletismo', false, array('value' => 'atletismo')); ?>
 			</div>
 			
-			<div class="form-group">
+  			<div class="form-group">
 				<?php echo CHtml::label('basquetbol', 'tag_basquetbol'); ?>
 				<?php echo CHtml::checkBox('tag_basquetbol', false, array('value' => 'basquetbol')); ?>
 			</div>
-			
+
 			<div class="form-group">
-				<?php echo CHtml::label('tenis', 'tag_tenis'); ?>
-				<?php echo CHtml::checkBox('tag_tenis', false, array('value' => 'tenis')); ?>
+				<?php echo CHtml::label('beisbol', 'tag_beisbol'); ?>
+				<?php echo CHtml::checkBox('tag_beisbol', false, array('value' => 'beisbol')); ?>
 			</div>
 			
 			<div class="form-group">
@@ -221,43 +218,18 @@
 			</div>
 			
 			<div class="form-group">
-				<?php echo CHtml::label('beisbol', 'tag_beisbol'); ?>
-				<?php echo CHtml::checkBox('tag_beisbol', false, array('value' => 'beisbol')); ?>
-			</div>
-			
-			<div class="form-group">
-				<?php echo CHtml::label('voleibol', 'tag_voleibol'); ?>
-				<?php echo CHtml::checkBox('tag_voleibol', false, array('value' => 'voleibol')); ?>
-			</div>
-			
-			<div class="form-group">
-				<?php echo CHtml::label('fútbol americano', 'tag_futbol_americano'); ?>
-				<?php echo CHtml::checkBox('tag_futbol_americano', false, array('value' => 'fútbol americano')); ?>
-			</div>
-			
-			<div class="form-group">
-				<?php echo CHtml::label('clavados', 'tag_clavados'); ?>
-				<?php echo CHtml::checkBox('tag_clavados', false, array('value' => 'clavados')); ?>
-			</div>
-			
-			<div class="form-group">
-				<?php echo CHtml::label('taekwondo', 'tag_taekwondo'); ?>
-				<?php echo CHtml::checkBox('tag_taekwondo', false, array('value' => 'taekwondo')); ?>
-			</div>
-			
-			<div class="form-group">
-				<?php echo CHtml::label('natación', 'tag_natacion'); ?>
-				<?php echo CHtml::checkBox('tag_natacion', false, array('value' => 'natación')); ?>
-			</div>
-			
-			<div class="form-group">
-				<?php echo CHtml::label('atletismo', 'tag_atletismo'); ?>
-				<?php echo CHtml::checkBox('tag_atletismo', false, array('value' => 'atletismo')); ?>
+				<?php echo CHtml::label('canotaje', 'tag_canotaje'); ?>
+				<?php echo CHtml::checkBox('tag_canotaje', false, array('value' => 'canotaje')); ?>
 			</div>
 			
 			<div class="form-group">
 				<?php echo CHtml::label('ciclismo', 'tag_ciclismo'); ?>
 				<?php echo CHtml::checkBox('tag_ciclismo', false, array('value' => 'ciclismo')); ?>
+			</div>
+			
+			<div class="form-group">
+				<?php echo CHtml::label('clavados', 'tag_clavados'); ?>
+				<?php echo CHtml::checkBox('tag_clavados', false, array('value' => 'clavados')); ?>
 			</div>
 			
 			<div class="form-group">
@@ -270,13 +242,53 @@
 				<?php echo CHtml::checkBox('tag_espeleo', false, array('value' => 'espeleo')); ?>
 			</div>
 			
+  			<div class="form-group">
+				<?php echo CHtml::label('fútbol', 'tag_futbol'); ?>
+				<?php echo CHtml::checkBox('tag_futbol', false, array('value' => 'fútbol')); ?>
+			</div>
+			
 			<div class="form-group">
-				<?php echo CHtml::label('canotaje', 'tag_canotaje'); ?>
-				<?php echo CHtml::checkBox('tag_canotaje', false, array('value' => 'canotaje')); ?>
+				<?php echo CHtml::label('fútbol americano', 'tag_futbol_americano'); ?>
+				<?php echo CHtml::checkBox('tag_futbol_americano', false, array('value' => 'fútbol americano')); ?>
+			</div>
+			
+			<div class="form-group">
+				<?php echo CHtml::label('natación', 'tag_natacion'); ?>
+				<?php echo CHtml::checkBox('tag_natacion', false, array('value' => 'natación')); ?>
+			</div>
+			
+			<div class="form-group">
+				<?php echo CHtml::label('taekwondo', 'tag_taekwondo'); ?>
+				<?php echo CHtml::checkBox('tag_taekwondo', false, array('value' => 'taekwondo')); ?>
+			</div>
+			
+			<div class="form-group">
+				<?php echo CHtml::label('tenis', 'tag_tenis'); ?>
+				<?php echo CHtml::checkBox('tag_tenis', false, array('value' => 'tenis')); ?>
+			</div>
+			
+			<div class="form-group">
+				<?php echo CHtml::label('voleibol', 'tag_voleibol'); ?>
+				<?php echo CHtml::checkBox('tag_voleibol', false, array('value' => 'voleibol')); ?>
 			</div>
   		</div>
   		
   		<div id="instrumento">
+  			<div class="form-group">
+				<?php echo CHtml::label('bajo', 'tag_bajo'); ?>
+				<?php echo CHtml::checkBox('tag_bajo', false, array('value' => 'bajo')); ?>
+			</div>
+			
+			<div class="form-group">
+				<?php echo CHtml::label('bateria', 'tag_bateria'); ?>
+				<?php echo CHtml::checkBox('tag_bateria', false, array('value' => 'bateria')); ?>
+			</div>
+			
+			<div class="form-group">
+				<?php echo CHtml::label('flauta', 'tag_flauta'); ?>
+				<?php echo CHtml::checkBox('tag_flauta', false, array('value' => 'flauta')); ?>
+			</div>
+			
   			<div class="form-group">
 				<?php echo CHtml::label('guitarra', 'tag_guitarra'); ?>
 				<?php echo CHtml::checkBox('tag_guitarra', false, array('value' => 'guitarra')); ?>
@@ -291,21 +303,6 @@
 				<?php echo CHtml::label('violín', 'tag_violin'); ?>
 				<?php echo CHtml::checkBox('tag_violin', false, array('value' => 'violín')); ?>
 			</div>
-			
-			<div class="form-group">
-				<?php echo CHtml::label('flauta', 'tag_flauta'); ?>
-				<?php echo CHtml::checkBox('tag_flauta', false, array('value' => 'flauta')); ?>
-			</div>
-			
-			<div class="form-group">
-				<?php echo CHtml::label('bateria', 'tag_bateria'); ?>
-				<?php echo CHtml::checkBox('tag_bateria', false, array('value' => 'bateria')); ?>
-			</div>
-			
-			<div class="form-group">
-				<?php echo CHtml::label('bajo', 'tag_bajo'); ?>
-				<?php echo CHtml::checkBox('tag_bajo', false, array('value' => 'bajo')); ?>
-			</div>	
   		</div>
   		
   		<div id="lectura">
@@ -325,14 +322,14 @@
 			</div>
 			
 			<div class="form-group">
+				<?php echo CHtml::label('novela', 'tag_novela'); ?>
+				<?php echo CHtml::checkBox('tag_novela', false, array('value' => 'lectura novela')); ?>
+			</div>
+			
+			<div class="form-group">
 				<?php echo CHtml::label('poesía', 'tag_poesia'); ?>
 				<?php echo CHtml::checkBox('tag_poesia', false, array('value' => 'lectura poesía')); ?>
 			</div>
-					
-			<div class="form-group">
-				<?php echo CHtml::label('novela', 'tag_novela'); ?>
-				<?php echo CHtml::checkBox('tag_novela', false, array('value' => 'lectura novela')); ?>
-			</div>	
   		</div>
 	</div>
 
