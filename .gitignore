@@ -26,3 +26,7 @@ nbproject
 
 themes/*
 !themes/HumHub
+
+.buildpath
+.project
+.settings/
